@@ -17,14 +17,14 @@ class OfferScraper(Scraper):
             for stock in soup.find('table', {'id': 'stocks'}).find('tbody').find_all('tr'):
                 td = stock.find_all('td')
                 offer_model: OfferModel = OfferModel(
-                    title=td[0].find('div', {'class': 'currency-details'}).find_all('div')[1].text.strip(),
+                    name=td[0].find('div', {'class': 'currency-details'}).find_all('div')[1].text.strip(),
                     code=td[0].find('div', {'class': 'currency-details'}).find_all('div')[0].text.strip(),
                     url=td[0].find('a').get('href'),
                     logo=td[0].find('img').get('src'),
                     current_price=td[1].text.strip(),
                     max_price=td[2].text.strip(),
                     min_price=td[3].text.strip(),
-                    ratio=td[5].text.strip(),
+                    percentage=td[5].text.strip(),
                     last_update=td[6].text.strip(),
                     chart=td[7].find('img').get('src')
                 )
