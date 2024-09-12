@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="168eedf2-bf74-4c21-a104-178ba67b9154" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/offer_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/api_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/task_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/offer_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/offer_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/active_public_offer_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/active_public_offer_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/offer_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/offer_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapers/active_public_offers_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapers/active_public_offers_scraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapers/offer_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapers/offer_scraper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
