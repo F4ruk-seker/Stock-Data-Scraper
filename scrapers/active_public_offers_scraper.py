@@ -16,11 +16,11 @@ class ActivePublicOfferingScraper(Scraper):
                 self + ActivePublicOfferingModel(
                     title=ipo.find('a').text,
                     url=ipo.find('a').get('href'),
-                    detail=[
-                        (detail.find_all('span')[0].text.strip(), detail.find_all('span')[1].text.strip())
+                    detail={
+                        detail.find_all('span')[0].text.strip().replace(':', ''): detail.find_all('span')[1].text.strip()
                         for detail in ipo.find_all('div', {'class': 'detail'})
                         if len(detail.find_all('span')) >= 2
-                    ]
+                    }
                 )
             self.set_successful(True)
 

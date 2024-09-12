@@ -5,4 +5,5 @@ from dataclasses import dataclass
 class ActivePublicOfferingModel:
     title: str
     url: str | None
-    detail: list[tuple]
+    detail: dict
+
